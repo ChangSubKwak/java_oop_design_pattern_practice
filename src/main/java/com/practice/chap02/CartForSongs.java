@@ -1,8 +1,7 @@
-package com.practice;
+package com.practice.chap02;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class CartForSongs {
     List<Song> cart = new ArrayList<>();

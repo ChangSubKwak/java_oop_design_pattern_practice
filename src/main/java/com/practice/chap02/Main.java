@@ -1,18 +1,22 @@
-package com.original;
+package com.practice.chap02;
+
+import com.practice.chap02.discountmode.NonDiscount;
+import com.practice.chap02.discountmode.OnSale;
+import com.practice.chap02.discountmode.TodayEvent;
 
 public class Main {
     public static void main(String[] args) {
         Song s1 = new Song();
-        s1.setMode("NonDiscounted");
+        s1.setMode(new NonDiscount());
         
         Song s2 = new Song();
-        s2.setMode("NonDiscounted");
+        s2.setMode(new NonDiscount());
         
         Song s3 = new Song();
-        s3.setMode("OnSale");
+        s3.setMode(new OnSale());
         
         Song s4 = new Song();
-        s4.setMode("TodayEvent");
+        s4.setMode(new TodayEvent());
         
         CartForSongs c = new CartForSongs();
         c.add(s1);

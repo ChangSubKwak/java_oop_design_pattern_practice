@@ -1,6 +1,6 @@
-package com.practice;
+package com.practice.chap02;
 
-import com.practice.discountmode.DiscountMode;
+import com.practice.chap02.discountmode.DiscountMode;
 
 public class Song {
     private DiscountMode mode;

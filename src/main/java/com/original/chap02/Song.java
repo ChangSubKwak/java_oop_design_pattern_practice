@@ -1,4 +1,4 @@
-package com.original;
+package com.original.chap02;
 
 public class Song {
     private String mode;
